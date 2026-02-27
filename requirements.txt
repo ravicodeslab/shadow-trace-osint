@@ -1,0 +1,21 @@
+# Web Server & API Framework
+fastapi==0.115.0
+uvicorn==0.30.6
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# Networking & Scrapers
+httpx==0.27.2
+requests==2.32.3
+beautifulsoup4==4.12.3
+python-multipart==0.0.12
+
+# Async & Concurrency
+asyncio==3.4.3
+
+# Utilities & AI Logic
+logging==0.4.9.6
+# Pattern matching is handled by native 're', no extra install needed
+
+# Security & CORS
+fastapi-middleware-cors==0.1.0
