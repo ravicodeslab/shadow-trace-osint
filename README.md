@@ -1,29 +1,34 @@
 # ShadowTrace 🛡️
-**OSINT & Privacy Intelligence Suite with DPDP Compliance Auditing**
+**AI-Powered Digital Footprint Correlation & DPDP Compliance Suite**
 
-ShadowTrace is a high-performance privacy intelligence platform designed to aggregate, correlate, and audit digital footprints across global platforms. Built for the modern security landscape, it addresses **Problem Statement #64** by transforming raw OSINT data into actionable privacy insights.
+Developed for **HackWithAI 2026** at **KLH University (Bachupally Campus), Hyderabad**.
+
+## 📖 Project Overview
+ShadowTrace is an advanced OSINT (Open Source Intelligence) platform built during the 24-hour HackWithAI challenge to solve **Problem Statement #64: Aggregate & Correlate Identifiers**. 
+
+In an era of rising data breaches, ShadowTrace empowers users and privacy professionals to visualize their digital exposure. By orchestrating asynchronous scrapers across global platforms (GitHub, Reddit, Breach Databases), it identifies exposed PII and maps them directly to the **Digital Personal Data Protection (DPDP) Act 2023** framework.
 
 ## 🚀 Key Features
-- **Deep Identity Correlation**: Aggregates data from GitHub, Reddit, Pastebin, and breach databases to build unified identifier clusters.
-- **AI-Powered PII Detector**: Regex-driven engine to identify Aadhaar, PAN, Emails, and Private Keys within raw datasets.
-- **DPDP Compliance Auditor**: Real-time mapping of discovered data leaks to the **Digital Personal Data Protection Act (2023)**.
-- **Interactive Identity Graph**: Dynamic visualization of interconnected digital nodes and identifier relationships.
-- **Secure Operator Node**: Authenticated dashboard with session persistence and automated search history logs.
+- **Deep Identity Correlation**: Uses asynchronous scrapers to link disparate identifiers (emails, usernames) into a unified digital profile.
+- **Interactive Identity Graph**: A dynamic D3-inspired visualization engine that maps the "Root Node" to various points of exposure.
+- **AI-Driven PII Detection**: Specialized pattern-matching logic to detect sensitive data like Aadhaar, PAN, and Private Keys in raw text.
+- **DPDP Act (2023) Auditor**: Automated legal mapping that flags violations of Section 6 (Consent) and Section 8 (Security Safeguards).
+- **Secure Operator Dashboard**: Modern, high-performance UI designed for rapid security auditing.
 
 ## 🛠️ Tech Stack
-- **Frontend**: React 19, Vite, Tailwind CSS 4, Framer Motion (Animations), Lucide React (Icons).
-- **Backend**: Python 3.13, FastAPI (Async Web Framework), Uvicorn.
-- **OSINT Logic**: Asynchronous Scrapers (Asyncio), HTTPX, BeautifulSoup4.
-- **Intelligence**: Custom PII Regex Processor, Risk Scoring Engine, DPDP Legal Mapper.
+- **Frontend**: React 19, Vite, Tailwind CSS 4, Framer Motion (Animations), Lucide Icons.
+- **Backend**: Python 3.13, FastAPI (Asynchronous Framework), Uvicorn.
+- **OSINT Intelligence**: Asyncio, HTTPX, BeautifulSoup4.
+- **Legal Logic**: Custom DPDP Compliance Engine & Risk Scorer.
 
-## ⚙️ Installation & Setup
+## ⚙️ Installation & Setup (KLH Evaluation Team)
 
-### 1. Prerequisites
+### Prerequisites
 - Python 3.10+
 - Node.js 18+
-- npm or yarn
 
-### 2. Backend Setup
-Navigate to the root directory and install dependencies:
+### 1. Backend Setup
 ```bash
+# From the root directory
 pip install -r requirements.txt
+python run.py
