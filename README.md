@@ -89,6 +89,7 @@ From the root directory:
 ```bash
 pip install -r requirements.txt
 python run.py
+or   pip install fastapi uvicorn httpx pydantic pydantic[email] email-validator python-dotenv
 ```
 
 The backend server will typically start at:
